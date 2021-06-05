@@ -13,6 +13,10 @@
   }
 }
 
+
+.backColorDetail{
+
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +39,61 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.tfp-page{
+  background: black;
+
+}
+
+.servicios-modify{
+  padding: 20px;
+}
+
+
+.servicios-modify h1{
+ color: white;
+ font-weight: bold;
+}
+
+.servicios-modify h3{
+  padding-right: 3%;
+  margin-top: 5%;
+  color: rgb(221, 66, 66);
+}
+
+.servicios-modify h4{
+  padding-right: 3%;
+  margin-top: 5%;
+  color: rgb(224, 224, 224);
+}
+
+.btn-contactar{
+  margin-top: 5%;
+}
+
+.img-servicios{
+ padding: 3%;
+ width: 100%;
+}
+
+.modal-img img{
+  box-shadow: 1px 7px 25px rgba(0, 0, 0, 0.56);
+  width: 100%;
+  height: 100%;
+  max-width: 700px;
+  max-height: 700px;
+}
+
+
+
+.modal-img{
+width: 100%;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+  transition: all 500ms ease;
+ 
 }

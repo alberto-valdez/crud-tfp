@@ -1,0 +1,506 @@
+body{
+    background: black;
+    color: white;
+}
+
+.imgDetalle{
+    width: 100%;
+    height: 100%;
+}
+
+.topDetalle{
+    margin-top: 5%;
+}
+
+.topDetalleVideo{
+    margin-top: 2%;
+}
+
+.espacioButton{
+    margin-left: 1%;
+}
+
+.imgDetalleEdit{
+    width: 350px;
+    height: 350px;
+}
+
+.paddingArrglos{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.form-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 2px;
+    box-shadow: 0px 0px 4px 0px #000;
+}
+
+.desc-tfp{
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.bannerArtista{
+    width: 50%;
+
+}
+
+.sub-tfp{
+    color: whitesmoke;
+    font-style: italic;
+}
+
+.titulo-tfp{
+    font-style: italic;
+    color: rgb(189, 59, 59)
+}
+.text-wrapper{
+   
+}
+
+.text-wrapper  h1{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 10vw;
+}
+
+.mosaicoW{
+    width: 18rem;
+    border: none;
+}
+.photoPoast{
+    cursor: pointer;
+    width: 100%;
+    height: auto;
+    transition: 0.3s;
+}
+
+.photoPoast:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+
+}
+
+.img-example{
+    width: 350px;
+    height: 350px;
+}
+
+.topPost{
+    margin-top: 1%;
+}
+
+.alturaRow{
+   
+}
+.spinnerpage{
+    height: 90vh;
+    padding: 20%;
+    text-align: center;
+}
+
+.footerAling{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    
+}
+
+.arregloSpin{
+    margin-left: 1%;
+}
+.box{
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    color: white;
+    margin-top: 10px;
+    width: 300px;
+}
+.album-box{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.box a{
+    text-decoration: none;
+    font-size: 2rem;
+    padding-left: 5px;
+    color: white;
+    cursor: pointer;
+}
+.album-tfp{
+    font-style: italic;
+    color: rgb(189, 59, 59);
+    font-size: 4vh;
+}
+.logoSize{
+    width: 46%;
+    height: auto;
+    margin-bottom: 10%;
+}
+
+
+
+    
+
+.detailCard:hover{
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    cursor: pointer;
+}
+
+.bottomSpace{
+  padding-bottom: 5%;
+}
+
+.colorFooter{
+    background: black;
+    color: whitesmoke;
+}
+
+
+.backInicio{
+    background: black;
+}
+.navInicio{
+font-size: 45px;
+
+font-weight: 900;
+
+   
+}
+
+.stylesList{
+    color:whitesmoke;
+    list-style-type:none;
+}
+
+.navChange{
+   
+    color: white;
+}
+.navChange:hover{
+
+    color: #cf1c0e;
+    
+    font-style: oblique;
+}
+
+.todosSize{
+    width: 100%;
+  
+}
+
+.glitch{
+    text-transform: uppercase;
+    text-shadow: 
+    0.05em 0 0 rgba(255, 0, 0, 0.75),
+    0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+    0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    animation: glitch 500ms infinite;
+}
+
+@keyframes glitch {
+    0% {
+      text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    14% {
+      text-shadow: 0.05em 0 0 rgba(255, 0, 0, 0.75),
+        -0.05em -0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.025em 0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    15% {
+      text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    49% {
+      text-shadow: -0.05em -0.025em 0 rgba(255, 0, 0, 0.75),
+        0.025em 0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.05em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    50% {
+      text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+        0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    99% {
+      text-shadow: 0.025em 0.05em 0 rgba(255, 0, 0, 0.75),
+        0.05em 0 0 rgba(0, 255, 0, 0.75), 0 -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+    100% {
+      text-shadow: -0.025em 0 0 rgba(255, 0, 0, 0.75),
+        -0.025em -0.025em 0 rgba(0, 255, 0, 0.75),
+        -0.025em -0.05em 0 rgba(0, 0, 255, 0.75);
+    }
+  }
+
+  
+  .topDetalleInicioFutter{
+      margin-top: 10%;
+      
+  }
+
+  .footerText{
+      color:white;
+      text-decoration: none;
+  }
+
+
+  .footerText:hover{
+    color:rgba(255, 255, 255, 0.555);
+    text-decoration: none;
+}
+  
+
+  .footerStyle{
+     height: 200px;
+     
+  }
+
+  .styleLi{
+      font-size: 50px;
+      text-decoration: none;
+  }
+
+
+  .musica{
+   background: white;
+   height: 80vh;
+   
+
+  }
+
+  .media{
+
+   background: grey;
+   height: 80vh;
+   
+  }
+
+ .dise{
+   background: red;
+   height: 80vh;
+   
+
+ }
+ .artisas-font{
+     color: whitesmoke;
+     font-size: 8rem;
+     font-weight: bold;
+     padding-top: 3%;
+     padding-left: 25%;
+     padding-right: 25%;
+ }
+
+ .artisas-desc{
+    color: whitesmoke;
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+
+ .line-detalle{
+     width: 50%;
+    border: 1px solid red;
+ }
+
+ .contacto
+ {
+     margin-top: 13%;
+    background: white;
+ }
+
+ .form-contacto
+ {
+     padding: 10%;
+     background: white;
+
+ }
+ .img-contacto
+ {
+padding: 0;
+
+ }
+ .img-contacto img
+ {
+    width: 100%;
+    height: 100%;
+   
+ }
+ .form-contacto h2
+ {
+     color: black;
+    display: flex;
+    justify-content: center;
+ }
+
+ .form-contacto input
+ {
+     margin-top: 3%;
+ }
+
+ .form-contacto select
+ {
+     margin-top: 3%;
+ }
+
+
+ .form-contacto textarea
+ {
+     margin-top: 3%;
+ }
+
+ .form-contacto button
+ {
+     margin-top: 3%;
+ }
+
+ .cardDetail{
+     padding: 5%;
+     margin: 10%;
+     height: 250px;
+ }
+
+ .cardDetail h5{
+   font-weight: bold; 
+   color: black;
+}
+
+.cardDetail p{
+    
+    color: black;
+ }
+
+
+
+
+.diseno img 
+{
+    width: 100%;
+}
+
+.linktfp:hover
+{
+    text-decoration: none;
+    color: red;
+    cursor: pointer;
+}
+
+.selectForm
+{
+   
+    
+    background: none;
+    color: red;
+}
+
+.row-detail
+{
+ padding: 3%;
+}
+
+.row-detail img
+{
+ width: 70%;
+ height: auto;
+ min-width: 50px;
+}
+
+.row-detail h1
+{
+color: white;
+text-shadow: -2px 3px 0 red;
+text-transform: uppercase;
+font-size: auto;
+
+font-style: initial;
+}
+
+.socialArtista{
+    font-size: 40px;
+    margin-bottom: 1%;
+}
+
+.socialArtista a
+{
+text-decoration: none;
+color: white;
+}
+
+
+.socialArtista a:hover
+{
+text-decoration: none;
+color: rgb(206, 36, 36);
+}
+
+.wrapper-modal{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-modal{
+    position: relative;
+    
+    border-radius: 5px;
+    padding: 3%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 10;
+    min-width: 320;
+
+}
+
+.back-toggle{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top:0;
+    bottom: 0;
+    left: 0;
+    background: #000;
+    opacity: 0.4;
+}
+
+.img-modal-w{
+   
+    width: 100%;
+    height: 100%;
+    max-width: 700px;
+    max-height: 700px;
+}
+
+.mosaicoW-products{
+    width: 18rem;
+    border: none;
+    margin: 3%;
+    padding: 3%;
+    text-align: center;
+}
+
+.mosaicoW-products a{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.stiky-modal{
+   
+    position: sticky;
+    top: 0;
+}
